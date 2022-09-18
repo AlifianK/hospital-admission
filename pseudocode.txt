@@ -8,3 +8,8 @@ loop from 0 to jumlah
     input patient's name to "nama[index]"
     input patient's age to "usia[index]"
 end loop
+
+loop from 0 to jumlah
+    display "Nama Pasien : {nama[index]}"
+    display "Usia Pasien : {usia[index]}"
+end loop
