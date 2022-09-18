@@ -1,0 +1,17 @@
+declare array variable "nama"
+declare array variable "usia"
+declare variable "jumlah"
+
+input patient count to "jumlah"
+
+loop from 0 to jumlah
+    input patient's name to "nama[index]"
+    input patient's age to "usia[index]"
+end loop
+
+loop from 0 to jumlah
+    display "Nama Pasien : {nama[index]}"
+    display "Usia Pasien : {usia[index]}"
+end loop
+
+display "Pasien berjumlah : {jumlah}"
