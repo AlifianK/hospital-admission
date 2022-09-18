@@ -5,6 +5,6 @@ declare variable "jumlah"
 input patient count to "jumlah"
 
 loop from 0 to jumlah
-    input patient's name to "nama"
-    input patient's age to "usia"
+    input patient's name to "nama[index]"
+    input patient's age to "usia[index]"
 end loop
