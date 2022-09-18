@@ -1,3 +1,5 @@
 declare array variable "nama"
 declare array variable "usia"
 declare variable "jumlah"
+
+input patient count to "jumlah"
