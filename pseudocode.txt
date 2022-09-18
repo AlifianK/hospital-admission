@@ -3,3 +3,8 @@ declare array variable "usia"
 declare variable "jumlah"
 
 input patient count to "jumlah"
+
+loop from 0 to jumlah
+    input patient's name to "nama"
+    input patient's age to "usia"
+end loop
