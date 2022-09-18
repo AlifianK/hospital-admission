@@ -13,3 +13,5 @@ loop from 0 to jumlah
     display "Nama Pasien : {nama[index]}"
     display "Usia Pasien : {usia[index]}"
 end loop
+
+display "Pasien berjumlah : {jumlah}"
